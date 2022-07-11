@@ -1,0 +1,17 @@
+.categories{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 7px;
+    min-height: 700px;
+}
+
+@media screen and (max-width: 500px) {
+    .categories {
+        padding: 0;
+        flex-direction: column;
+        margin-top: 0;
+        min-height: none;
+    }
+    
+}

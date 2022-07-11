@@ -1,0 +1,47 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(158, 194, 230, 0.8)
+    ,rgba(76, 135, 194, 0.8));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register__wrapper{
+    padding: 20px;
+    width: 40%;
+    background-color: white;
+}
+.register__wrapper >h1{
+    font-size: 24px;
+    font-weight: 300;
+}
+.register__wrapper > form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.register__wrapper > form> input{
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 0px 0px ;
+    padding: 10px;
+}
+.register__wrapper >form > p{
+    font-size: 12px;
+    margin: 20px 0px;
+
+}
+.register__wrapper > form > button{
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .register__wrapper {
+        width: 75%;
+    }
+    
+}

@@ -1,0 +1,62 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(158, 194, 230, 0.8), rgba(76, 135, 194, 0.8));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__wrapper {
+    padding: 20px;
+    width: 25%;
+    background-color: white;
+}
+
+.login__wrapper>h1 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.login__wrapper>form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login__wrapper>form>input {
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.login__wrapper>form>button {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+.login__wrapper>form>button :disabled {
+   color: green;
+   cursor: not-allowed;
+
+}
+.login__wrapper>form>a {
+    margin:5px 0px;
+    font-size: 12px;
+    text-decoration:underline;
+    cursor: pointer;
+}
+.login__error{
+    color: red;
+}
+@media screen and (max-width: 500px) {
+    .login__wrapper {
+        width: 75%;
+    }
+    
+}
