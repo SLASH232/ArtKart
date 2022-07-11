@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL= "https://mern-artkart.herokuapp.com/api/"
+const BASE_URL="https://mern-artkart.herokuapp.com/api/"
 
 
 // "http://localhost:8001/api"
