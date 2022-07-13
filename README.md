@@ -112,7 +112,7 @@ redux-thunk: ^2.1.0 |
 ![YouTube Link] (https://www.youtube.com/watch?v=elPErUyeCUI)
 
 # Live Project Link
-![ArtKart](https://artkart.netlify.app/)
+![ArtKart] (https://artkart.netlify.app/)
 
 # Screenshots of this project
 
